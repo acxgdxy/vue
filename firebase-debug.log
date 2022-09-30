@@ -1,0 +1,40 @@
+[debug] [2022-09-28T15:22:45.721Z] ----------------------------------------------------------------------
+[debug] [2022-09-28T15:22:45.723Z] Command:       D:\node.js\node.exe D:\node.js\node_global\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-09-28T15:22:45.723Z] CLI Version:   11.11.0
+[debug] [2022-09-28T15:22:45.723Z] Platform:      win32
+[debug] [2022-09-28T15:22:45.723Z] Node Version:  v16.17.0
+[debug] [2022-09-28T15:22:45.724Z] Time:          Wed Sep 28 2022 23:22:45 GMT+0800 (中国标准时间)
+[debug] [2022-09-28T15:22:45.724Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=607495796&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-09-28T15:23:14.072Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2022-09-28T15:23:14.072Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2022-09-28T15:23:35.224Z] Token Fetch Error: FirebaseError: Failed to make request to https://accounts.google.com/o/oauth2/token
+    at RetryOperation._fn (D:\node.js\node_global\node_modules\firebase-tools\lib\apiv2.js:242:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] [2022-09-28T15:23:35.237Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2022-09-28T15:23:35.237Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"e2a089b6-9059-4fb5-847e-b83479211383"}
+[debug] [2022-09-28T15:23:36.359Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2022-09-28T15:23:36.360Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"hqkJDtjbU8VA9BDBPXQsUNQMUxn6WkBuowWhvnzNM2k"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    E2A08
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=FMTAONMXLMaQkucfJltBSrYu19qWmZJD8_6nOavwP28&session=e2a089b6-9059-4fb5-847e-b83479211383&attest=hqkJDtjbU8VA9BDBPXQsUNQMUxn6WkBuowWhvnzNM2k
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
+[debug] [2022-09-28T15:24:03.592Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2022-09-28T15:24:03.592Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
